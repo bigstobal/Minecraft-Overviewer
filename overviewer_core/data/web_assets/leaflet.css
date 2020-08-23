@@ -1,7 +1,7 @@
 /* required styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 body {
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif !important;
 }
 .leaflet-pane,
 .leaflet-tile,
@@ -257,7 +257,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	outline: 0;
 	}
 .leaflet-container a {
-	color: #0078A8;
+	color: #333;
 	}
 .leaflet-container a.leaflet-active {
 	outline: 2px solid orange;
@@ -270,7 +270,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 
 /* general typography */
 .leaflet-container {
-	font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font: 12px/1.5 'Roboto Condensed', sans-serif;
 	}
 
 
@@ -348,7 +348,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-control-layers {
 	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 	background: #fff;
-	border-radius: 5px;
+	border-radius: 0px;
 	}
 .leaflet-control-layers-toggle {
 	background-image: url(images/layers.png);
@@ -459,7 +459,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	}
 .leaflet-touch .leaflet-control-layers,
 .leaflet-touch .leaflet-bar {
-	border: 2px solid rgba(0,0,0,0.2);
+	border: 2px solid rgba(0,0,0);
 	background-clip: padding-box;
 	}
 
@@ -474,7 +474,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 .leaflet-popup-content-wrapper {
 	padding: 1px;
 	text-align: left;
-	border-radius: 12px;
+	border-radius: 0px;
 	}
 .leaflet-popup-content {
 	margin: 13px 19px;
@@ -571,7 +571,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	padding: 6px;
 	background-color: #fff;
 	border: 1px solid #fff;
-	border-radius: 3px;
+	border-radius: 0px;
 	color: #222;
 	white-space: nowrap;
 	-webkit-user-select: none;
