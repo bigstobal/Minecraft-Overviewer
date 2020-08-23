@@ -5,4 +5,6 @@ By Andrew Brown and contributors (see CONTRIBUTORS.rst).
 This fork changes some of the assets and adds blocks that have not been added yet.
 
 ## List of changes
-* merged Pull request #1839 from parent repo
+* Merged Pull request #1839 from parent repo
+* Slightly modified css
+* config included
